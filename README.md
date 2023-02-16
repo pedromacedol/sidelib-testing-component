@@ -4,9 +4,9 @@
 
 # Install
 ```shell
-yarn add dakson-testing-component
+yarn add sidelib-testing-component
 
 or
 
-npm install dakson-testing-component
+npm install sidelib-testing-component
 ```

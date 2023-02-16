@@ -5,7 +5,7 @@ export interface IProps extends TextProps {
   title: string;
 }
 
-export function TestingComponent({ title }: IProps) {
+export function TestingComponent({ title, ...rest }: IProps) {
   return (
     <Box
       w="100%"
@@ -17,6 +17,7 @@ export function TestingComponent({ title }: IProps) {
       color="white"
       display="flex"
       alignItems="center"
+      {...rest}
     >
       {title}
     </Box>

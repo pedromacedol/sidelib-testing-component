@@ -1,4 +1,4 @@
-# dakson-testing-component
+# sidelib-testing-component
 
 * This is a beautifull Component to test package
 

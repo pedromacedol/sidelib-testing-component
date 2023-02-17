@@ -25,3 +25,6 @@ function App() {
 
 export default App;
 ```
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81385265/219652732-59008357-efa1-44f5-a068-033d481ad979.png" >
+</div>

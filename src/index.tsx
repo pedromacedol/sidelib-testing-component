@@ -1,25 +1,26 @@
-import * as React from "react";
-import { Box, TextProps } from "@chakra-ui/react";
+import * as React from 'react';
+import { Box, TextProps } from '@chakra-ui/react';
+export * from './components/Button';
 
 export interface IProps extends TextProps {
-  title: string;
+	title: string;
 }
 
 export function TestingComponent({ title, ...rest }: IProps) {
-  return (
-    <Box
-      w="100%"
-      h={60}
-      p={4}
-      fontSize="xl"
-      fontWeight="bold"
-      bg="tomato"
-      color="white"
-      display="flex"
-      alignItems="center"
-      {...rest}
-    >
-      {title}
-    </Box>
-  );
+	return (
+		<Box
+			w="100%"
+			h={60}
+			p={4}
+			fontSize="xl"
+			fontWeight="bold"
+			bg="tomato"
+			color="white"
+			display="flex"
+			alignItems="center"
+			{...rest}
+		>
+			{title}
+		</Box>
+	);
 }

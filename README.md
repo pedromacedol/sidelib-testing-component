@@ -5,9 +5,9 @@
 # Install
 ```shell
 yarn add sidelib-testing-component
-
+```
 or
-
+```shell
 npm install sidelib-testing-component
 ```
 

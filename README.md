@@ -1,6 +1,6 @@
 # sidelib-testing-component
 
-* This is a beautifull Component to test package
+* This is a beautifull React Component to test package
 
 # Install
 ```shell

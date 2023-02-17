@@ -10,3 +10,18 @@ or
 
 npm install sidelib-testing-component
 ```
+
+# Import
+```js
+import { TestingComponent } from "sidelib-testing-component";
+```
+## Example
+```js
+function App() {
+  return (
+    <TestingComponent title="Example" />
+    );
+}
+
+export default App;
+```
